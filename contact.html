@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Perk Café | Contact</title>
+  <meta name="description" content="Contact The Perk café downtown. View hours, location, and order ahead for pickup." />
+
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="The Perk Home">
+        <span class="brand-mark" aria-hidden="true">☕</span>
+        <span class="brand-text">
+          <span class="brand-name">The Perk</span>
+          <span class="brand-tag">Downtown Café</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-nav-toggle>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Primary" data-nav>
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="menu.html">Menu</a>
+        <a class="nav-link" href="about.html">Our Story</a>
+        <a class="nav-link" href="gallery.html">Gallery</a>
+        <a class="nav-link is-active" href="contact.html">Contact</a>
+        <a class="nav-cta" href="#order">Order Ahead</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="page-hero-media" role="img" aria-label="Downtown street with coffee shop vibe"
+        style="background-image:url('https://images.unsplash.com/photo-1520975958225-2b6f1c2b9c1d?auto=format&fit=crop&w=2400&q=70');">
+      </div>
+      <div class="container page-hero-content">
+        <p class="eyebrow">Contact</p>
+        <h1>Come by downtown.</h1>
+        <p class="lead">Questions, catering inquiries, or order-ahead pickup—use the details below.</p>
+      </div>
+    </section>
+
+    <section class="section" id="hours">
+      <div class="container two-col">
+        <div class="panel">
+          <h2>Hours</h2>
+          <p class="muted">
+            Mon–Fri: <strong>7:00 AM – 6:00 PM</strong><br />
+            Sat: <strong>8:00 AM – 6:00 PM</strong><br />
+            Sun: <strong>8:00 AM – 2:00 PM</strong>
+          </p>
+
+          <h3>Location</h3>
+          <p class="muted">
+            The Perk Café<br />
+            <span class="muted">(Add your address here)</span><br />
+            Downtown
+          </p>
+
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="#" aria-label="Get directions">Get Directions</a>
+            <a class="btn btn-ghost" href="tel:+1-000-000-0000">Call</a>
+          </div>
+
+          <p class="muted small">
+            Tip: Replace the phone number and directions link once you know them.
+          </p>
+        </div>
+
+        <div class="panel">
+          <h2>Send a message</h2>
+          <form class="form" action="#" method="post">
+            <label class="field">
+              <span>Name</span>
+              <input type="text" name="name" placeholder="Your name" autocomplete="name" required />
+            </label>
+
+            <label class="field">
+              <span>Email</span>
+              <input type="email" name="email" placeholder="you@email.com" autocomplete="email" required />
+            </label>
+
+            <label class="field">
+              <span>Message</span>
+              <textarea name="message" rows="5" placeholder="How can we help?" required></textarea>
+            </label>
+
+            <button class="btn btn-primary" type="submit">Send</button>
+            <p class="muted small">
+              GitHub Pages can’t process form submissions by itself. In the next step, I can wire this to a free form service.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-cta" id="order">
+      <div class="container cta">
+        <div>
+          <h2>Order ahead (pickup)</h2>
+          <p class="muted">Use this quick form to prepare your pickup order. We’ll confirm by text.</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="order-panel">
+          <form class="form" action="#" method="post">
+            <div class="form-row">
+              <label class="field">
+                <span>Name</span>
+                <input type="text" name="order_name" placeholder="Your name" required />
+              </label>
+
+              <label class="field">
+                <span>Phone</span>
+                <input type="tel" name="order_phone" placeholder="(555) 555-5555" required />
+              </label>
+            </div>
+
+            <label class="field">
+              <span>Pickup time</span>
+              <select name="pickup_time" required>
+                <option value="" selected disabled>Select a pickup window</option>
+                <option>ASAP (15–20 minutes)</option>
+                <option>30 minutes</option>
+                <option>1 hour</option>
+                <option>Later today</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span>Order details</span>
+              <textarea name="order_details" rows="4" placeholder="Example: 1 Vanilla Oat Latte (iced), 1 Butter Croissant" required></textarea>
+            </label>
+
+            <button class="btn btn-primary" type="submit">Place Pickup Request</button>
+            <p class="muted small">
+              Next step: connect this to a form endpoint (free) so submissions actually go somewhere.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">
+          <span class="brand-mark" aria-hidden="true">☕</span>
+          <div>
+            <strong>The Perk</strong><br />
+            <span class="muted">Downtown Café</span>
+          </div>
+        </div>
+        <p class="muted small">Order ahead. Pick up downtown.</p>
+      </div>
+
+      <div>
+        <strong>Pages</strong>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="about.html">Our Story</a>
+          <a href="gallery.html">Gallery</a>
+        </div>
+      </div>
+
+      <div>
+        <strong>Hours</strong>
+        <p class="muted small">
+          Mon–Fri: 7:00 AM – 6:00 PM<br />
+          Sat: 8:00 AM – 6:00 PM<br />
+          Sun: 8:00 AM – 2:00 PM
+        </p>
+      </div>
+
+      <div>
+        <strong>Quick links</strong>
+        <p class="muted small">
+          <a class="link" href="#order">Order Ahead</a><br />
+          <a class="link" href="#hours">Hours & Location</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p class="muted small">© <span data-year></span> The Perk Café.</p>
+    </div>
+  </footer>
+</body>
+</html>
