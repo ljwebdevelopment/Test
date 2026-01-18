@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Perk Café | Menu</title>
+  <meta name="description" content="Explore The Perk menu: espresso, brewed coffee, tea, pastries, and light bites." />
+
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="The Perk Home">
+        <span class="brand-mark" aria-hidden="true">☕</span>
+        <span class="brand-text">
+          <span class="brand-name">The Perk</span>
+          <span class="brand-tag">Downtown Café</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-nav-toggle>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Primary" data-nav>
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link is-active" href="menu.html">Menu</a>
+        <a class="nav-link" href="about.html">Our Story</a>
+        <a class="nav-link" href="gallery.html">Gallery</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="nav-cta" href="contact.html#order">Order Ahead</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="page-hero-media" role="img" aria-label="Coffee bar with pastries"
+        style="background-image:url('https://images.unsplash.com/photo-1453614512568-c4024d13c247?auto=format&fit=crop&w=2400&q=70');">
+      </div>
+      <div class="container page-hero-content">
+        <p class="eyebrow">Menu</p>
+        <h1>Simple, refined, and made daily.</h1>
+        <p class="lead">Seasonal specials rotate. Ask the barista what’s new and what’s best today.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="menu-nav">
+          <a class="chip" href="#espresso">Espresso</a>
+          <a class="chip" href="#brewed">Brewed</a>
+          <a class="chip" href="#tea">Tea</a>
+          <a class="chip" href="#pastries">Pastries</a>
+          <a class="chip" href="#bites">Light Bites</a>
+        </div>
+
+        <div class="menu-grid">
+          <section class="menu-section" id="espresso">
+            <h2>Espresso</h2>
+            <p class="muted">Available hot or iced. Oat, almond, and whole milk options.</p>
+
+            <div class="menu-items">
+              <div class="menu-item">
+                <div>
+                  <h3>Espresso</h3>
+                  <p class="muted small">Single or double shot.</p>
+                </div>
+                <span class="price">$3.00</span>
+              </div>
+
+              <div class="menu-item">
+                <div>
+                  <h3>Americano</h3>
+                  <p class="muted small">Bold and smooth, topped with hot water.</p>
+                </div>
+                <span class="price">$3.75</span>
+              </div>
+
+              <div class="menu-item">
+                <div>
+                  <h3>Cappuccino</h3>
+                  <p class="muted small">Classic foam-forward comfort.</p>
+                </div>
+                <span class="price">$4.50</span>
+              </div>
+
+              <div class="menu-item">
+                <div>
+                  <h3>Latte</h3>
+                  <p class="muted small">Silky milk and balanced espresso.</p>
+                </div>
+                <span class="price">$5.00</span>
+              </div>
+
+              <div class="menu-item">
+                <div>
+                  <h3>Vanilla Oat Latte</h3>
+                  <p class="muted small">House vanilla + oat milk.</p>
+                </div>
+                <span class="price">$5.50</span>
+              </div>
+
+              <div class="menu-item">
+                <div>
+                  <h3>Mocha</h3>
+                  <p class="muted small">Rich cocoa with espresso and steamed milk.</p>
+                </div>
+                <span class="price">$5.75</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="menu-section" id="brewed">
+            <h2>Brewed Coffee</h2>
+            <p class="muted">Rotating single-origin and house blend selections.</p>
+
+            <div class="menu-items">
+              <div class="menu-item">
+                <div>
+                  <h3>Drip Coffee</h3>
+                  <p class="muted small">House blend, always fresh.</p>
+                </div>
+                <span class="price">$3.25</span>
+              </div>
+
+              <div class="menu-item">
+                <div>
+                  <h3>Cold Brew</h3>
+                  <p class="muted small">Smooth, chocolatey, and low acidity.</p>
+                </div>
+                <span class="price">$4.75</span>
+              </div>
+
+              <div class="menu-item">
+                <div>
+                  <h3>Rotating Pour-Over</h3>
+                  <p class="muted small">Ask about today’s origin and tasting notes.</p>
+                </div>
+                <span class="price">$4.75</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="menu-section" id="tea">
+            <h2>Tea</h2>
+            <p class="muted">Hot or iced. Lightly sweetened options available.</p>
+
+            <div class="menu-items">
+              <div class="menu-item">
+                <div>
+                  <h3>Earl Grey</h3>
+                  <p class="muted small">Bright bergamot, classic finish.</p>
+                </div>
+                <span class="price">$3.75</span>
+              </div>
+
+              <div class="menu-item">
+                <div>
+                  <h3>Matcha Latte</h3>
+                  <p class="muted small">Creamy matcha, lightly sweetened.</p>
+                </div>
+                <span class="price">$5.50</span>
+              </div>
+
+              <div class="menu-item">
+                <div>
+                  <h3>Herbal Mint</h3>
+                  <p class="muted small">Crisp, clean, and caffeine-free.</p>
+                </div>
+                <span class="price">$3.75</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="menu-section" id="pastries">
+            <h2>Pastries</h2>
+            <p class="muted">Selection varies daily—arrive early for the best pick.</p>
+
+            <div class="menu-items">
+              <div class="menu-item">
+                <div>
+                  <h3>Butter Croissant</h3>
+                  <p class="muted small">Flaky layers, baked golden.</p>
+                </div>
+                <span class="price">$3.75</span>
+              </div>
+
+              <div class="menu-item">
+                <div>
+                  <h3>Chocolate Croissant</h3>
+                  <p class="muted small">Dark chocolate, buttery dough.</p>
+                </div>
+                <span class="price">$4.25</span>
+              </div>
+
+              <div class="menu-item">
+                <div>
+                  <h3>Seasonal Scone</h3>
+                  <p class="muted small">Ask what’s in the case today.</p>
+                </div>
+                <span class="price">$3.50</span>
+              </div>
+
+              <div class="menu-item">
+                <div>
+                  <h3>Banana Bread</h3>
+                  <p class="muted small">Warm spices, café classic.</p>
+                </div>
+                <span class="price">$3.75</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="menu-section" id="bites">
+            <h2>Light Bites</h2>
+            <p class="muted">Perfect with coffee—fast, fresh, and satisfying.</p>
+
+            <div class="menu-items">
+              <div class="menu-item">
+                <div>
+                  <h3>Avocado Toast</h3>
+                  <p class="muted small">Sea salt, lemon, chili flakes.</p>
+                </div>
+                <span class="price">$8.50</span>
+              </div>
+
+              <div class="menu-item">
+                <div>
+                  <h3>Yogurt & Granola</h3>
+                  <p class="muted small">Honey drizzle + seasonal fruit.</p>
+                </div>
+                <span class="price">$6.75</span>
+              </div>
+
+              <div class="menu-item">
+                <div>
+                  <h3>Breakfast Sandwich</h3>
+                  <p class="muted small">Egg, cheddar, and your choice of add-ons.</p>
+                </div>
+                <span class="price">$7.95</span>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="note">
+          <strong>Note:</strong> Prices and availability may vary by season. For dietary needs, ask us what we can do.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">
+          <span class="brand-mark" aria-hidden="true">☕</span>
+          <div>
+            <strong>The Perk</strong><br />
+            <span class="muted">Downtown Café</span>
+          </div>
+        </div>
+        <p class="muted small">Espresso • Pour-overs • Pastries • Light bites</p>
+      </div>
+
+      <div>
+        <strong>Pages</strong>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">Our Story</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+
+      <div>
+        <strong>Hours</strong>
+        <p class="muted small">
+          Mon–Fri: 7:00 AM – 6:00 PM<br />
+          Sat: 8:00 AM – 6:00 PM<br />
+          Sun: 8:00 AM – 2:00 PM
+        </p>
+      </div>
+
+      <div>
+        <strong>Order</strong>
+        <p class="muted small">
+          Prefer pickup? Use our order-ahead form.<br />
+          <a class="link" href="contact.html#order">Order Ahead</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p class="muted small">© <span data-year></span> The Perk Café.</p>
+    </div>
+  </footer>
+</body>
+</html>
