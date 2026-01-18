@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Perk Café | Downtown</title>
+  <meta name="description" content="The Perk is a classy downtown café serving espresso, pour-overs, pastries, and light bites in a modern, welcoming space." />
+
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="The Perk Home">
+        <span class="brand-mark" aria-hidden="true">☕</span>
+        <span class="brand-text">
+          <span class="brand-name">The Perk</span>
+          <span class="brand-tag">Downtown Café</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-nav-toggle>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Primary" data-nav>
+        <a class="nav-link is-active" href="index.html">Home</a>
+        <a class="nav-link" href="menu.html">Menu</a>
+        <a class="nav-link" href="about.html">Our Story</a>
+        <a class="nav-link" href="gallery.html">Gallery</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="nav-cta" href="contact.html#order">Order Ahead</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-media" role="img" aria-label="Latte art on a wooden counter in a modern cafe"
+        style="background-image:url('https://images.unsplash.com/photo-1459755486867-b55449bb39ff?auto=format&fit=crop&w=2400&q=70');">
+      </div>
+
+      <div class="container hero-content">
+        <p class="eyebrow">Downtown • Espresso Bar • Pastry Case</p>
+        <h1>Classy coffee, modern comfort.</h1>
+        <p class="lead">
+          The Perk is your downtown escape for expertly pulled espresso, pour-overs, seasonal specials,
+          and fresh pastries—served in a space designed for conversation, focus, and a little indulgence.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="menu.html">Explore the Menu</a>
+          <a class="btn btn-ghost" href="contact.html#hours">Hours & Location</a>
+        </div>
+
+        <div class="hero-highlights" role="list">
+          <div class="pill" role="listitem">Single-origin espresso</div>
+          <div class="pill" role="listitem">House-made syrups</div>
+          <div class="pill" role="listitem">Pastries daily</div>
+          <div class="pill" role="listitem">Wi-Fi + outlets</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Today’s favorites</h2>
+          <p class="muted">A few standouts that keep regulars coming back.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card-media" role="img" aria-label="Iced latte in a clear glass"
+              style="background-image:url('https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=1800&q=70');"></div>
+            <div class="card-body">
+              <h3>Vanilla Oat Latte</h3>
+              <p class="muted">House vanilla, silky oat milk, and a balanced espresso finish.</p>
+              <div class="card-meta">
+                <span class="price">$5.50</span>
+                <a class="link" href="menu.html#espresso">See espresso</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media" role="img" aria-label="Pour-over coffee being made"
+              style="background-image:url('https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1800&q=70');"></div>
+            <div class="card-body">
+              <h3>Rotating Pour-Over</h3>
+              <p class="muted">Clean, nuanced cups from our rotating seasonal selection.</p>
+              <div class="card-meta">
+                <span class="price">$4.75</span>
+                <a class="link" href="menu.html#brewed">See brewed</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media" role="img" aria-label="Fresh pastry on a plate"
+              style="background-image:url('https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?auto=format&fit=crop&w=1800&q=70');"></div>
+            <div class="card-body">
+              <h3>Butter Croissant</h3>
+              <p class="muted">Flaky, golden layers baked fresh daily. Perfect with espresso.</p>
+              <div class="card-meta">
+                <span class="price">$3.75</span>
+                <a class="link" href="menu.html#pastries">See pastries</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- AMBIENCE SPLIT -->
+    <section class="section section-split">
+      <div class="container split">
+        <div class="split-copy">
+          <h2>A space made for downtown days.</h2>
+          <p class="muted">
+            Marble tones, warm wood, and soft lighting—designed to feel elevated without feeling fussy.
+            Come for a quick espresso, stay for a meeting, or settle in with a book.
+          </p>
+          <ul class="checklist">
+            <li>Comfortable seating + community table</li>
+            <li>Playlist-forward, conversation-friendly</li>
+            <li>Local art + rotating seasonal decor</li>
+          </ul>
+          <div class="split-actions">
+            <a class="btn btn-primary" href="about.html">Meet The Perk</a>
+            <a class="btn btn-ghost" href="gallery.html">View Gallery</a>
+          </div>
+        </div>
+
+        <div class="split-media" role="img" aria-label="Modern cafe interior with warm lighting"
+          style="background-image:url('https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=2400&q=70');">
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section-cta">
+      <div class="container cta">
+        <div>
+          <h2>Order ahead, pick up downtown.</h2>
+          <p class="muted">Quick, easy, and ready when you are. Breakfast rush approved.</p>
+        </div>
+        <div class="cta-actions">
+          <a class="btn btn-primary" href="contact.html#order">Order Ahead</a>
+          <a class="btn btn-ghost" href="contact.html#hours">Find Us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">
+          <span class="brand-mark" aria-hidden="true">☕</span>
+          <div>
+            <strong>The Perk</strong><br />
+            <span class="muted">Downtown Café</span>
+          </div>
+        </div>
+        <p class="muted small">
+          Espresso • Pour-overs • Pastries • Light bites<br />
+          Built for downtown mornings and slow afternoons.
+        </p>
+      </div>
+
+      <div>
+        <strong>Pages</strong>
+        <div class="footer-links">
+          <a href="menu.html">Menu</a>
+          <a href="about.html">Our Story</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+
+      <div>
+        <strong>Hours</strong>
+        <p class="muted small">
+          Mon–Fri: 7:00 AM – 6:00 PM<br />
+          Sat: 8:00 AM – 6:00 PM<br />
+          Sun: 8:00 AM – 2:00 PM
+        </p>
+      </div>
+
+      <div>
+        <strong>Location</strong>
+        <p class="muted small">
+          Downtown (add your address)<br />
+          <a class="link" href="contact.html#hours">Map & directions</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p class="muted small">© <span data-year></span> The Perk Café. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
