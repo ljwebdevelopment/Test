@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Perk Café | Gallery</title>
+  <meta name="description" content="Gallery of The Perk café vibe: coffee, pastries, and a modern-classic downtown space." />
+
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="The Perk Home">
+        <span class="brand-mark" aria-hidden="true">☕</span>
+        <span class="brand-text">
+          <span class="brand-name">The Perk</span>
+          <span class="brand-tag">Downtown Café</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-nav-toggle>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Primary" data-nav>
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="menu.html">Menu</a>
+        <a class="nav-link" href="about.html">Our Story</a>
+        <a class="nav-link is-active" href="gallery.html">Gallery</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="nav-cta" href="contact.html#order">Order Ahead</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="page-hero-media" role="img" aria-label="Cafe interior with tables and warm lighting"
+        style="background-image:url('https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=2400&q=70');">
+      </div>
+      <div class="container page-hero-content">
+        <p class="eyebrow">Gallery</p>
+        <h1>Modern-classic, downtown energy.</h1>
+        <p class="lead">A few snapshots of the vibe—coffee, pastries, and the space.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="gallery-grid">
+          <figure class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=1800&q=70"
+              alt="Coffee cup on a table"
+              loading="lazy"
+            />
+            <figcaption class="muted small">Everyday espresso moments</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1800&q=70"
+              alt="Latte art close-up"
+              loading="lazy"
+            />
+            <figcaption class="muted small">Clean pours, balanced flavor</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1520975682031-a6ad5b74d046?auto=format&fit=crop&w=1800&q=70"
+              alt="Pastries in a display case"
+              loading="lazy"
+            />
+            <figcaption class="muted small">Pastries daily</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=1800&q=70"
+              alt="Cafe seating with warm light"
+              loading="lazy"
+            />
+            <figcaption class="muted small">Comfort-first seating</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1800&q=70"
+              alt="Pour-over coffee brewing"
+              loading="lazy"
+            />
+            <figcaption class="muted small">Seasonal pour-overs</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1520013573797-38516d2661e9?auto=format&fit=crop&w=1800&q=70"
+              alt="Coffee bar with equipment"
+              loading="lazy"
+            />
+            <figcaption class="muted small">A bar built for craft</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1507133750040-4a8f57021571?auto=format&fit=crop&w=1800&q=70"
+              alt="Iced coffee on a counter"
+              loading="lazy"
+            />
+            <figcaption class="muted small">Iced, smooth, and ready</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1507914372368-b2b085b925a1?auto=format&fit=crop&w=1800&q=70"
+              alt="Coffee and pastry on a plate"
+              loading="lazy"
+            />
+            <figcaption class="muted small">Pairings that just work</figcaption>
+          </figure>
+        </div>
+
+        <div class="note">
+          Want this to be your real café photos? Upload your images to GitHub later and swap the image URLs.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">
+          <span class="brand-mark" aria-hidden="true">☕</span>
+          <div>
+            <strong>The Perk</strong><br />
+            <span class="muted">Downtown Café</span>
+          </div>
+        </div>
+        <p class="muted small">Classy coffee, modern comfort.</p>
+      </div>
+
+      <div>
+        <strong>Pages</strong>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="about.html">Our Story</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+
+      <div>
+        <strong>Hours</strong>
+        <p class="muted small">
+          Mon–Fri: 7:00 AM – 6:00 PM<br />
+          Sat: 8:00 AM – 6:00 PM<br />
+          Sun: 8:00 AM – 2:00 PM
+        </p>
+      </div>
+
+      <div>
+        <strong>Visit</strong>
+        <p class="muted small">
+          Downtown (add your address)<br />
+          <a class="link" href="contact.html#hours">Map & directions</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p class="muted small">© <span data-year></span> The Perk Café.</p>
+    </div>
+  </footer>
+</body>
+</html>
